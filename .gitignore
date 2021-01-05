@@ -243,3 +243,12 @@ LinearLayout2/gradle/wrapper/gradle-wrapper.properties
 LinearLayout2/gradlew
 LinearLayout2/gradlew.bat
 LinearLayout2/settings.gradle
+*.xml
+*.gradle
+*.pro
+*.png
+*.java
+*.jar
+*.bat
+*.properties
+LinearLayout3/gradlew
