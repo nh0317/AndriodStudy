@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 1">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number2"
+        android:hint="Number 2">
+    </EditText>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:backgroundTint="#F0C7D3D8"
+        android:textColor="@color/black"
+        android:id="@+id/plus"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:backgroundTint="#F0C7D3D8"
+        android:textColor="@color/black"
+        android:id="@+id/minus"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:backgroundTint="#F0C7D3D8"
+        android:textColor="@color/black"
+        android:id="@+id/multiply"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:backgroundTint="#F0C7D3D8"
+        android:textColor="@color/black"
+        android:id="@+id/div"
+        >
+    </Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:hint="Result">
+    </EditText>
+</LinearLayout>
