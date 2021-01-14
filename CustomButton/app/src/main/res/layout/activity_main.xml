@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--책의 코드를 그대로 작성할 경우 정상적으로 작동하지 않아 몇 가지를 수정함
+    1. Button -> ImageButton
+    2. focusableInToubleMode="true" 추가
+    3. background 대신 src 사용-->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:id="@+id/button1"
+        android:onClick="onClick"
+        android:focusableInTouchMode="true"
+        android:src="@drawable/android_button"
+        android:background="@color/white"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+    <!--focused를 확인하기 위해 버튼을 2개 작성함 -->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:id="@+id/button2"
+        android:onClick="onClick"
+        android:focusableInTouchMode="true"
+        android:src="@drawable/android_button"
+        android:background="@color/white"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+</LinearLayout>
