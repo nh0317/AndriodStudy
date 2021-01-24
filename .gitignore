@@ -28,3 +28,4 @@ gradlew
 *.name
 *.ser
 !/*/app/src/main/java/kr/co/company/*/*
+*.gitignore
