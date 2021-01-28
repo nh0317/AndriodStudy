@@ -29,3 +29,4 @@ gradlew
 *.ser
 !/*/app/src/main/java/kr/co/company/*/*
 *.gitignore
+!/*/app/src/main/res/menu/*
